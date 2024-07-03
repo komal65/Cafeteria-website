@@ -1,0 +1,46 @@
+.order_sec{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction:column;
+    margin: 2rem 3rem;
+    /* margin-left: 18rem; */
+}
+
+.order_sec .in{
+    margin: 0.9rem 0.2rem;
+    width: 16rem;
+    height: 25px;
+    border-radius:18px;
+    border-color:  rgb(255, 223, 43);;
+    background: transparent;
+}
+
+
+.order_sec .qr_img{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 0.8rem;
+    background-color: rgb(214, 216, 218);
+}
+
+.order_sec .payment{
+    color: aliceblue;
+    font-weight:bold;
+    margin: 0.6rem;
+    align-self:normal;
+}
+
+.order_sec .confirm{
+    width: 140px;
+    height: 27px;
+    background:none;
+    color: aliceblue;
+    border-radius: 18px;
+    margin-top: 0.5rem;
+}
+
+
+.order_sec .confirm:hover{
+    background-color: rgb(109, 93, 2);; ;
+}

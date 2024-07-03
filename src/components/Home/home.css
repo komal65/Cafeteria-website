@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+
+
+.homePage{
+    background-image: url("../../../public/home1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 660px;
+
+}
+
+.home{
+     display: block;
+     align-items: center;
+     padding-left: 55%;
+     padding-top: 8rem;
+     font-size: 1.6rem;
+     font-family: 'Young Serif', serif;
+}
+
+
+.home .wel , .canteen{
+    color: rgb(255, 223, 43);
+}
+
+.home .pccoer{
+    color: rgb(56, 182, 255);;
+}

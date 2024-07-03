@@ -1,0 +1,121 @@
+
+
+
+.g1{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: row;
+    background-image: url("../../public/login1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 660px;
+}
+.linput{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem .4rem;
+    height: 30px;
+    border-color: rgb(236, 202, 5);
+    width: 270px;
+    border-radius: 18px;
+    font-size: 14px;
+    background:transparent;
+    padding-left: 19px;
+    color:aliceblue;
+    font-weight: bold;
+    
+}
+.g1 .back_btn{
+   
+    background: none;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;margin-right: 200px;
+    color: aliceblue;
+   
+  
+}
+::placeholder{
+    color:aliceblue;
+}
+
+.lbtn{
+    color: rgb(252, 248, 248);
+    font-weight: bold;
+    height: 30px;
+    width: 90px;
+    background: transparent;
+    border-color: rgb(236, 202, 5);
+    border-radius: 18px;
+    
+}
+.lbtn:hover{
+    background-color: rgb(219, 194, 50);
+    cursor: pointer;
+    color: black;
+    font-weight: bolder;
+    border-color:black;
+    font-size: 15px;
+    height: 34px;
+    width: 95px;
+
+}
+.login_form_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 55%;
+
+}
+.form_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left .form_container h1{
+    color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    font-style:oblique;
+}
+
+.form_container .error_msg{
+             color: rgb(255, 0, 0);
+             font-size: 16px;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.right h1{
+    color: aliceblue;
+    font-size: 25px;
+    font-family: cursive;
+}
+.white_btn{
+    color: rgb(252, 248, 248);
+    font-weight: bold;
+    height: 30px;
+    width: 90px;
+    background: transparent;
+    border-color: rgb(236, 202, 5);
+    border-radius: 18px;
+    
+}
+.white_btn:hover{
+    background-color: rgb(219, 194, 50);
+    cursor: pointer;
+    color: black;
+    font-weight: bolder;
+    border-color:black;
+    font-size: 15px;
+    height: 34px;
+    width: 95px;
+}

@@ -1,0 +1,41 @@
+.Food-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.3rem 1.2rem;
+    height: 14rem;
+    width:8rem;
+    border: 4px solid #c7b304;
+     /* box-shadow: 4px 2px 0px rgba(170, 131, 2, 0.4);  */
+    border-radius: 10%;
+    color: rgb(207, 207, 204);
+    margin: 1rem 1.4rem;
+}
+.Food-item h3{
+    margin-bottom: 0;
+    margin-top: 0.2 rem;
+    padding: 0;
+    color: rgb(243, 242, 238);
+}
+
+.Food-item .food-image{
+    height: 70px;
+    width: 70px;
+    background: transparent;
+    border-radius: 30%;
+    margin: 0;
+
+}
+
+.Food-item .handlecart{
+    width: 90px;
+    height: 27px;
+    background:none;
+    color: aliceblue;
+    border-radius: 18px;
+}
+
+.Food-item .handlecart:hover{
+    background-color: rgb(121, 103, 2);; ;
+}
